@@ -1,4 +1,4 @@
-<img src="assets/header.jpg" alt="HelloGitHub" width="520" height="120" />
+![GoHAM](https://socialify.git.ci/icecliffs/GoHAM/image?language=1&name=1&owner=1&pattern=Floating%20Cogs&theme=Light)
 
 
 # GoHAM
