@@ -3,34 +3,34 @@
 
 # GoHAM
 
-> A wireless radio log communication system for radio enthusiasts.
+> 無線愛好者向けのワイヤレスラジオログ通信システム
 
-[中文](./README.md)| English | [日本語](./README-jp.md)
+[中文](./README.md)| [English](./README-en.md) | 日本語
 
 ![version](https://img.shields.io/github/v/release/IceCliffs/GoHAM?include_prereleases&label=version)
 
 > [!IMPORTANT]
-> This project is still in development. If you encounter bugs or urgently need some functional suggestions, please open an [ISSUE](https://github.com/icecliffs/GoHAM/issues) or send an email.
+> このプロジェクトはまだ開発中です。バグに遭遇したり、緊急に機能に関する提案が必要な場合は、[ISSUE](https://github.com/icecliffs/GoHAM/issues)を開いたり、メールを送ったりしてください。
 
-Experience it here: [https://goham-1Ba34Da3c8-vmlinux.iloli.moe](https://goham-1Ba34Da3c8-vmlinux.iloli.moe)
+こちらでお試しいただけます: [https://goham-1Ba34Da3c8-vmlinux.iloli.moe](https://goham-1Ba34Da3c8-vmlinux.iloli.moe)
 
-## 🔧Features
+## 🔧機能
 
-- Supports 2FA login verification for faster login.
-- Basic radio log recording
-  - Frequency management, communication log management, log export, etc.
-- Communication dashboard for easy and reliable discovery of communication data.
-- Supports ADIF log import and export for quick system integration.
-- Supports integration with LoTW system for quick log import.
-- Supports multi-platform deployment. **May consider adopting SaaS multi-user mode in the future. Stay tuned.**
-- Supports client/server log communication, users can download the client to add logs to the server.
-  - Address: https://github.com/icecliffs/WSocketReflectorGoHAM
-
-
-## 🐴Demo
+- より迅速なログインのための2FAログイン確認をサポート。
+- 基本的なラジオログの記録
+  - 周波数管理、通信ログ管理、ログのエクスポートなど。
+- 通信ダッシュボードによる、通信データの簡単で信頼性のある発見。
+- クイックなシステム統合のためのADIFログのインポートおよびエクスポートをサポート。
+- LoTWシステムとの統合をサポートし、ログの迅速なインポートを可能にします。
+- ~~マルチプラットフォーム展開をサポート。 **将来的にはSaaSマルチユーザーモードを採用する可能性があります。お楽しみに。~~**
+- クライアント/サーバーログ通信をサポートし、ユーザーはクライアントをダウンロードしてログをサーバーに追加できます。
+  - アドレス: https://github.com/icecliffs/WSocketReflectorGoHAM
 
 
+## 🐴デモ
 
-## 🌏关于i18n
 
-Currently adapted for Simplified Chinese, Traditional Chinese, Japanese (google translation), and English (google translation). If you encounter translation errors, please open an [ISSUE](https://github.com/icecliffs/GoHAM/issues) or email. Urgently need translation masters, if you are interested, please contact me.
+
+## 🌏i18nについて
+
+現在、簡体字中国語、繁体字中国語、日本語（機械翻訳）、英語（機械翻訳）に対応しています。翻訳エラーが発生した場合は、[ISSUE](https://github.com/icecliffs/GoHAM/issues)を開くか、メールを送信してください。翻訳マスターが急募です。興味があれば、お気軽にご連絡ください。
