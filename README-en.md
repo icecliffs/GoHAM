@@ -16,18 +16,61 @@ Experience it here: [https://goham-1Ba34Da3c8-vmlinux.iloli.moe](https://goham-1
 
 ## 🔧Features
 
-- Supports 2FA login verification for faster login.
-- Basic radio log recording
-  - Frequency management, communication log management, log export, etc.
-- Communication dashboard for easy and reliable discovery of communication data.
-- Supports ADIF log import and export for quick system integration.
-- Supports integration with LoTW system for quick log import.
-- Supports multi-platform deployment. **May consider adopting SaaS multi-user mode in the future. Stay tuned.**
-- Supports client/server log communication, users can download the client to add logs to the server.
-  - Address: https://github.com/icecliffs/WSocketReflectorGoHAM
+- The most basic radio log recording
+- Frequency management, communication log management, log export, etc
+- Connected large screen for convenient, reliable, and intuitive discovery of connected data
+- Support ADIF log import and export, facilitating quick system integration
+- Supporting multi platform deployment, * * may consider adopting SaaS multi-user mode in the future, please stay tuned**
+- Support client/server log connectivity, users can download and add logs from the client to the server by themselves~~
+- Address: https://github.com/icecliffs/WSocketReflectorGoHAM
 
+## 🔨 Deploy
+
+#### Docker deployment (recommended)
+
+` ` `
+docker run icecliffs/goham:latest -p 11451:11451
+` ` `
+
+Manual compilation: The repository contains' docker-compose.yaml 'which can be customized according to requirements
+
+#### Windows deployment
+
+You can find the version you need to download in the Release interface. Because the database uses MySQL, you need to manually import the SQL file (' goham.sql ').
+
+After configuring the corresponding account and password port number in 'config.yaml', run it directly
+
+` ` `
+goham.exe
+` ` `
+
+Be enough
+
+#### Linux deployment
+
+You can find the version you need to download in the Release interface. Because the database uses MySQL, you need to manually import the SQL file (' goham.sql ').
+
+After configuring the corresponding account and password port number in 'config.yaml', run it directly
+
+` ` `
+./goham
+` ` `
+
+Be enough
 
 ## 🐴Demo
+
+![](./assets/2.jpg)
+
+![](./assets/3.jpg)
+
+![](./assets/4.jpg)
+
+![](./assets/5.jpg)
+
+![](./assets/6.jpg)
+
+![](./assets/7.jpg)
 
 
 

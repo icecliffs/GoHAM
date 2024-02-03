@@ -1,0 +1,9 @@
+hamlog:
+  port: # WEB PORT
+
+mysql:
+  url: # DB URL
+  username: # DB USER
+  password: # DB PASS
+  dbname: # DB NAME
+  port: # DB PORT

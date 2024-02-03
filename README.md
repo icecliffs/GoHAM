@@ -16,20 +16,61 @@
 
 ## 🔧功能
 
-- 支持2FA登录校验，登陆更快捷
 - 最基本的电台日志记录
   - 频率管理、通联日志管理、日志导出等等
 - 通联大屏，方便可靠直观发现通联数据
 - 支持 ADIF 日志导入及导出，方便快速对接系统
-- 支持关联 LoTW 系统，方便快速导入日志
 - 支持多平台部署，**后续可能会考虑采用SaaS多用户模式，敬请期待**
-- ~~支持客户端/服务端日志通联，用户可自行下载客户端添加日志至服务端~~~~
+- ~~支持客户端/服务端日志通联，用户可自行下载客户端添加日志至服务端~~
   - 地址：https://github.com/icecliffs/WSocketReflectorGoHAM
 
+## 🔨部署
+
+#### Docker部署（推荐）
+
+```
+docker run icecliffs/goham:latest -p 11451:11451
+```
+
+手动编译：仓库内有 `docker-compose.yaml` 可以根据需求自定义
+
+#### Windows部署
+
+在发行界面（Release）找到需要下载的版本即可，由于数据库使用的是MySQL所以需要手动导入SQL文件（`goham.sql`）
+
+在 `config.yaml` 配置好对应的账号密码端口号后直接运行
+
+```
+goham.exe
+```
+
+即可
+
+#### Linux部署
+
+在发行界面（Release）找到需要下载的版本即可，由于数据库使用的是MySQL所以需要手动导入SQL文件（`goham.sql`）
+
+在 `config.yaml` 配置好对应的账号密码端口号后直接运行
+
+```
+./goham
+```
+
+即可
 
 ## 🐴Demo
 
-![](assets/1.jpg)
+![](./assets/2.jpg)
+
+![](./assets/3.jpg)
+
+![](./assets/4.jpg)
+
+![](./assets/5.jpg)
+
+![](./assets/6.jpg)
+
+![](./assets/7.jpg)
 
 ## 🌏关于i18n
 
