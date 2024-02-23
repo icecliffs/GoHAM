@@ -5,7 +5,7 @@
 
 > 無線愛好者向けのワイヤレスラジオログ通信システム
 
-[中文](./README.md)| [English](./README-en.md) | 日本語
+[中文](./README-zh.md)| [English](./README.md) | 日本語
 
 ![version](https://img.shields.io/github/v/release/IceCliffs/GoHAM?include_prereleases&label=version)
 

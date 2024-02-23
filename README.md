@@ -3,60 +3,60 @@
 
 # GoHAM
 
-> 一款适用于无线电爱好者们的无线电日志通联纪录系统
+> A radio log communication recording system suitable for HAM
 
-中文 | [English](./README-en.md) | [日本語](./README-jp.md)
+[中文](./README-zh.md)| English | [日本語](./README-jp.md)
 
 ![version](https://img.shields.io/github/v/release/IceCliffs/GoHAM?include_prereleases&label=version)
 
 > [!IMPORTANT]
-> 该项目还在开发中，如遇到BUG或急需一些功能性的建议可以提个 [ISSUE](https://github.com/icecliffs/GoHAM/issues) 或发送电子邮件
+> This project is still in development. If you encounter bugs or urgently need some functional suggestions, please open an [ISSUE](https://github.com/icecliffs/GoHAM/issues) or send an email.
 
-体验地址：[https://goham-1Ba34Da3c8-vmlinux.iloli.moe](https://goham-1Ba34Da3c8-vmlinux.iloli.moe)
+Experience it here: [https://goham-1Ba34Da3c8-vmlinux.iloli.moe](https://goham-1Ba34Da3c8-vmlinux.iloli.moe)
 
-## 🔧功能
+## 🔧Features
 
-- 最基本的电台日志记录
-  - 频率管理、通联日志管理、日志导出等等
-- 通联大屏，方便可靠直观发现通联数据
-- 支持 ADIF 日志导入及导出，方便快速对接系统
-- 支持多平台部署，**后续可能会考虑采用SaaS多用户模式，敬请期待**
-- ~~支持客户端/服务端日志通联，用户可自行下载客户端添加日志至服务端~~
-  - 地址：https://github.com/icecliffs/WSocketReflectorGoHAM
+- The most basic radio log recording
+- Frequency management, communication log management, log export, etc
+- Connected large screen for convenient, reliable, and intuitive discovery of connected data
+- Support ADIF log import and export, facilitating quick system integration
+- Supporting multi platform deployment, * * may consider adopting SaaS multi-user mode in the future, please stay tuned**
+- Support client/server log connectivity, users can download and add logs from the client to the server by themselves~~
+- Address: https://github.com/icecliffs/WSocketReflectorGoHAM
 
-## 🔨部署
+## 🔨 Deploy
 
-#### Docker部署（推荐）
+#### Docker deployment (recommended)
 
-```
+` ` `
 docker run icecliffs/goham:latest -p 11451:11451
-```
+` ` `
 
-手动编译：仓库内有 `docker-compose.yaml` 可以根据需求自定义
+Manual compilation: The repository contains' docker-compose.yaml 'which can be customized according to requirements
 
-#### Windows部署
+#### Windows deployment
 
-在发行界面（Release）找到需要下载的版本即可，由于数据库使用的是MySQL所以需要手动导入SQL文件（`goham.sql`）
+You can find the version you need to download in the Release interface. Because the database uses MySQL, you need to manually import the SQL file (' goham.sql ').
 
-在 `config.yaml` 配置好对应的账号密码端口号后直接运行
+After configuring the corresponding account and password port number in 'config.yaml', run it directly
 
-```
+` ` `
 goham.exe
-```
+` ` `
 
-即可
+Be enough
 
-#### Linux部署
+#### Linux deployment
 
-在发行界面（Release）找到需要下载的版本即可，由于数据库使用的是MySQL所以需要手动导入SQL文件（`goham.sql`）
+You can find the version you need to download in the Release interface. Because the database uses MySQL, you need to manually import the SQL file (' goham.sql ').
 
-在 `config.yaml` 配置好对应的账号密码端口号后直接运行
+After configuring the corresponding account and password port number in 'config.yaml', run it directly
 
-```
+` ` `
 ./goham
-```
+` ` `
 
-即可
+Be enough
 
 ## 🐴Demo
 
@@ -72,6 +72,8 @@ goham.exe
 
 ![](./assets/7.jpg)
 
+
+
 ## 🌏关于i18n
 
-目前适配了简体中文、繁体中文、日语（机翻）、英语（机翻），如遇到翻译错误可提 [ISSUE](https://github.com/icecliffs/GoHAM/issues) 或电子邮件，急需翻译大佬，如果有要的可以联系我
+Currently adapted for Simplified Chinese, Traditional Chinese, Japanese (google translation), and English (google translation). If you encounter translation errors, please open an [ISSUE](https://github.com/icecliffs/GoHAM/issues) or email. Urgently need translation masters, if you are interested, please contact me.
