@@ -1,0 +1,13 @@
+# https://www.btool.cn/sm2-key-generator
+hamlog:
+  port: 11451
+  sm2_private_key: 
+  sm2_public_key: 
+  sm2_compressed_public_key: 
+
+mysql:
+  url: 127.0.0.1
+  username: root
+  password: 123456
+  dbname: goham
+  port: 3306
