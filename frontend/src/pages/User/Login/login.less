@@ -1,0 +1,42 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f0f2f5;
+    background-image: url('https://gw.alipayobjects.com/zos/rmsportal/TVYTbAXWheQpRcWDaDMu.svg');
+    background-repeat: no-repeat;
+    background-position: center 110px;
+    background-size: 100%;
+    
+    .login-card {
+    width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+    .ant-card-head {
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+        border-bottom: none;
+    }
+    
+    .ant-form-item:last-child {
+        margin-bottom: 0;
+    }
+    
+    .ant-checkbox-wrapper {
+        color: rgba(0, 0, 0, 0.65);
+    }
+    }
+}
+
+@media (max-width: 768px) {/
+    .login-container {
+    padding: 0 16px;
+    
+    .login-card {
+        width: 100%;
+    }
+    }
+}
